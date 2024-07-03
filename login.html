@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script>
+         function handleSubmit(event) {
+            event.preventDefault(); 
+
+            var username = document.getElementById('uname').value;
+            var password = document.getElementById('pass').value;
+
+            if (username === "" || password === "") {
+                alert('กรุณากรอก username และ password');
+            } else {
+                window.location.href = 'index.html'; 
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>page header</p>
+    <img src="https://www.cmu.ac.th/content/Article/2023/7e6d8808-54b5-419d-b3da-99de6cce26f4/047c25cb-dee0-494e-b462-4f28f9e51ffd.jpg" alt="" width="13%">
+    <hr width="100%">
+    <p>page body</p>
+    <h1>หน้า Login</h1>
+    <form onsubmit="handleSubmit(event)">
+        <label for="uname">username</label>
+        <input type="text" id="uname" name="uname">
+        <label for="pass">password</label>
+        <input type="text" id="pass" name="pass">
+        <button type="submit">Login</button> 
+        <a href="signin.html">Sign In</a>
+    </form>
+    <hr width="100%">
+    <p>page footer</p>
+    <h7>ที่อยู่ camt มช</h7><br>
+    <iframe width="500" height="500" frameborder="0" scrolling="no"
+    src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=c
+    amt เชียงใหม่&amp;z=14&amp;output=embed" marginheight="0"
+    marginwidth="0"></iframe>
+    
+</body>
+</html>
