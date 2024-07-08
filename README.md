@@ -1,8 +1,3 @@
 ID <662110203>
-# วิธีการติดตั้ง Git
----
--**วิธีการติดตั้ง Git บนเครื่อง**-
-
-1. **ดําวน์โหลด Git:** ไปที่ [เว็บไซต์ git-scm.com](https://git-
-scm.com/downloads) และดาวน์โหลด Git สำหรับระบบปฏิบัติการ (Windows,macOS, Linux)
-2. **ติดตั้ง Git:** ติดตั้ง Git ที่ดาวน์โหลดมาและทำตามขั้นตอนการติดตั้ง
+link GitHub ของฉัน
+(https://github.com/DII-camt/lab-Warittttt.git)
